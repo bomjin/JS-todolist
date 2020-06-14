@@ -1,19 +1,19 @@
-// 'use strict';
+'use strict';
 
-// const title = document.querySelector('#title');
+const title = document.querySelector('#title');
 
-// const CLICKED_CLASS = 'clikced';
+const CLICKED_CLASS = 'clikced';
 
-// function handleClick() {
-//   const hasClass = title.classList.contains(CLICKED_CLASS);
-//   if (hasClass) {
-//     title.classList.remove(CLICKED_CLASS);
-//   // } else {
-//     title.classList.add(CLICKED_CLASS);
-//   }
-// }
+function handleClick() {
+  const hasClass = title.classList.contains(CLICKED_CLASS);
+  if (hasClass) {
+    title.classList.remove(CLICKED_CLASS);
+    // } else {
+    title.classList.add(CLICKED_CLASS);
+  }
+}
 
-// function init() {
-//   title.addEventListener('click', handleClick);
-// }
-// init();
+function init() {
+  title.addEventListener('click', handleClick);
+}
+init();
